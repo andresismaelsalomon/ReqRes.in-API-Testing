@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReqRes API - Users Endpoints Testing Suite">
+
+    <test name="getUsersListTest">
+        <classes>
+            <class name="UsersEndpointsTest">
+                <methods>
+                    <include name="getUsersListTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="getUserByIdTest">
+        <classes>
+            <class name="UsersEndpointsTest">
+                <methods>
+                    <include name="getUserByIdTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="postUserTest">
+        <classes>
+            <class name="UsersEndpointsTest">
+                <methods>
+                    <include name="postUserTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="putUserByIdTest">
+        <classes>
+            <class name="UsersEndpointsTest">
+                <methods>
+                    <include name="putUserByIdTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="deleteUserById">
+        <classes>
+            <class name="UsersEndpointsTest">
+                <methods>
+                    <include name="deleteUserById"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

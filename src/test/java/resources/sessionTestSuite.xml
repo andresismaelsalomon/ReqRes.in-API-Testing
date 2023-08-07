@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReqRes API - Session Endpoints Testing Suite">
+
+    <test name="postSessionTest">
+        <classes>
+            <class name="SessionEndpointsTest">
+                <methods>
+                    <include name="postSessionTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="postLogoutTest">
+        <classes>
+            <class name="SessionEndpointsTest">
+                <methods>
+                    <include name="postLogoutTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
