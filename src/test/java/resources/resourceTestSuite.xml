@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReqRes API - Resources Endpoints Testing Suite">
+
+    <test name="getResourcesListTest">
+        <classes>
+            <class name="ResourceEndpointsTest">
+                <methods>
+                    <include name="getResourcesListTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="getResourceByIdTest">
+        <classes>
+            <class name="ResourceEndpointsTest">
+                <methods>
+                    <include name="getResourceByIdTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="putResourceByIdTest">
+        <classes>
+            <class name="ResourceEndpointsTest">
+                <methods>
+                    <include name="putResourceByIdTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="deleteResourceByIdTest">
+        <classes>
+            <class name="ResourceEndpointsTest">
+                <methods>
+                    <include name="deleteResourceByIdTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
